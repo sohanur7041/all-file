@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: auto;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 5px 10px;
+    transform: 0.35;
+}
+nav ul li a:hover{
+    background-color: brown;
+}
+.aa{
+    text-align:center;
+    background-color: rgb(32, 77, 116);
+}
